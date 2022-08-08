@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color:#000;
+  color:#fff;
+}
+
+.containers {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+}
+
+.panel{
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.one{
+  background-color: pink;
+}
+
+.two{
+  background-color: cornflowerblue;
+}
+
+.three{
+  background-color: gold;
+}
+
+.four{
+  background-color: peru;
+}
+
+.five{
+  background-color: green;
+}
+
+.panel.active,
+.panel.active h1{
+  color: chartreuse;
+}
+
+/* progress bar */
+
+.rocket-parent{
+  position:relative;
+  top:0;
+  left:0;
+  z-index:22;
+}
+.rocket{
+  position:fixed;
+  top:10%;
+  left:0;
+  width:100px;
+  transform:rotate(43deg);
+}
+.progress-bar {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:22;
+  width: 100%;
+  background-color: #333;
+}
+
+.progress-bar-inner {
+  width: 0%;
+  padding: 0px;
+  background-color: #ffce00;
+  color: #fff;
+}
+
+/* checklist section */
+.checklist-parent {
+  position: relative;
+
+}
+
+.full-shape {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: -222;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+
+.image-wrapper img {
+  position: absolute;
+  top: 10%;
+  left: -10%;
+  width: 5%;
+}
+
+.image-wrapper p {
+  font-size: 18px;
+  text-align: left;
+}
+
+.deactivate {
+  display: none;
+}
+
+.pop-up,
+.download {
+  text-decoration: underline;
+  color: cornflowerblue;
+  cursor: pointer;
+  text-align: left;
+}

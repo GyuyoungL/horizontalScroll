@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- progress bar -->
+    <div class="progress-bar">
+      <div class="progress-bar-inner">0%</div>
+    </div>
+    <div class="rocket-parent">
+      <img src="./img/rocket-02.png" alt="" class="rocket" />
+    </div>
+
+    <!-- section -->
+    <div class="containers">
+      <section class="panel one">
+        <h1>ONE</h1>
+      </section>
+      <section class="panel two">
+        <h1>TWO</h1>
+      </section>
+      <section class="panel three">
+        <div class="step1">
+          <h2 class="checklist">1. Client checklist</h2>
+          <div class="checklist-parent">
+            <div class="checklist0">
+              <div class="image-wrapper">
+                <img src="./img/unchecked.png" class="unchecked" data-value="-2" alt="" />
+                <img src="./img/checked.png" class="checked deactivate" data-value="-2" alt="" />
+                <p>
+                  Smart Daily Tool account <br />
+                  <span class="pop-up" data-toggle="modal" data-target="#exampleModal">Steps for setting up account </span>
+                </p>
+              </div>
+            </div>
+            <div class="checklist1">
+              <div class="image-wrapper">
+                <img src="./img/unchecked.png" class="unchecked" data-value="-2" alt="" />
+                <img src="./img/checked.png" class="checked deactivate" data-value="-2" alt="" />
+                <p>MP3 files rendered at 96kbps, compressed if over 50mb in size, French and English – Final version</p>
+              </div>
+            </div>
+            <div class="checklist2">
+              <div class="image-wrapper">
+                <img src="./img/unchecked.png" class="unchecked" data-value="-2" alt="" />
+                <img src="./img/checked.png" class="checked deactivate" data-value="-2" alt="" />
+                <p>Transcripts, French and English that follow correct format in Word doc format – Final version</p>
+              </div>
+            </div>
+            <div class="checklist3">
+              <div class="image-wrapper">
+                <img src="./img/unchecked.png" class="unchecked" data-value="-2" alt="" />
+                <img src="./img/checked.png" class="checked deactivate" data-value="-2" alt="" />
+                <p>Episode description (including the subject, list of guest(s) and host(s), release date), <br />English and French, Word doc format titled Description</p>
+              </div>
+            </div>
+            <div class="checklist4">
+              <div class="image-wrapper">
+                <img src="./img/unchecked.png" class="unchecked" data-value="-2" alt="" />
+                <img src="./img/checked.png" class="checked deactivate" data-value="-2" alt="" />
+                <p>Drupal account</p>
+                <a href="./file/Creating a Drupal Account.pdf" download>
+                  <p class="download">Instructions for creating a Drupal account</p>
+                </a>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="panel four">
+        <h1>FOUR</h1>
+      </section>
+      <section class="panel five">
+        <h1>FIVE</h1>
+      </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollToPlugin.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
